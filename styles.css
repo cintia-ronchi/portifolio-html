@@ -1,0 +1,153 @@
+body {
+    background-color: #272928;
+    color: #79E9DC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body p {
+    color: white;
+    text-align: justify;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: #79E9DC;
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    border-radius: 100%;
+    border: 2px solid #79e9dc;
+} 
+
+.center {
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: #66F0BC;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .curso {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 10px;
+    width: 600px;
+    transition: all 0.3s ease-out;
+  }
+
+  .curso:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  
+  .curso p {
+    color: #a3a5ae;
+    font-size: 14px;
+  }
+  
+  .image {
+    float: center;
+    max-width: 550px;
+  }
+
+  .proj {
+    justify-content: left;
+    align-items: left;
+  }
+
+  .projeto {
+    width: 900px
+  }
+
+  .link {
+    justify-content: right;
+    margin-left: 50px; 
+  }
+  
+  .icones {
+    display: flex;
+    flex-direction: row;
+  }
+
+  button {
+    background-color: #79E9BB;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .contato {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+  }
+
+  .contato ul li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    
+  }
+
+  .contato ul li a p {
+
+margin-left: 10px;
+  }
